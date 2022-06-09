@@ -1,0 +1,21 @@
+/*nav */ 
+.sas-nav {
+    grid-area: nav;
+    li{
+        a:hover{
+            color: #2897e7;
+        }
+    }
+    li:hover {
+        transform: scale(1.2);
+        transition: all 0.7s;
+        color: #2897e7;
+        width: 100px 100px;
+        height: 5px 5px;
+
+        align-items: center
+    }
+}
+.sasnavmod1 {
+    background-color: #2f59a7;
+}

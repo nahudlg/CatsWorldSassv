@@ -1,3 +1,12 @@
+@import"../componentes/nav";
+@import"../componentes/header";
+@import"../componentes/section";
+
+ /*body*/ 
+body {
+    font-family: 'Koulen', cursive;
+}
+ /*container */ 
 .sas-container {
     display: grid;
     grid-gap: 5px;
@@ -9,15 +18,7 @@
         "footer footer footer";
 }
 
-.sas-nav {
-    grid-area: nav;
-
-}
-
-.sas-section {
-    grid-area: contenido;
-}
-
+ /*aside */ 
 .sas-aside {
     grid-area: aside;
     background-color: #092b9b;
@@ -33,25 +34,29 @@
     }
 
 }
-
+ /*foot */ 
 #footsas {
     grid-area: footer;
     padding: 0px;
+    background-color: #798088;
+    display: grid;
+    justify-content: center;
 
     h3 {
         font-size: 20px;
     }
 
+    i {
+        color: black;
+        font-size: 50px;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    i:hover {
+        color: #0b68e3;
+    }
+
 }
 
-.sas-header {
-    grid-area: header;
-    h1{
-        padding-top: 30px;
-        font-size: 100px;
-    }
-    img{
-        width: 220px;
-        height: 220px;
-    }
-}
