@@ -46,4 +46,12 @@
 
 .sas-header {
     grid-area: header;
+    h1{
+        padding-top: 30px;
+        font-size: 100px;
+    }
+    img{
+        width: 220px;
+        height: 220px;
+    }
 }
