@@ -3,19 +3,18 @@
     grid-area: nav;
     li{
         a:hover{
-            color: #2897e7;
+            color: map-get($nav, color-hover);
         }
     }
     li:hover {
-        transform: scale(1.2);
+        transform: map-get($nav , trasform-n );
         transition: all 0.7s;
         color: #2897e7;
-        width: 100px 100px;
+        width: map-get($nav , width-n );
         height: 5px 5px;
-
         align-items: center
     }
 }
 .sasnavmod1 {
-    background-color: #2f59a7;
+    background-color: map-get($nav , bg-color-n );
 }

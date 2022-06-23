@@ -1,1 +1,8 @@
--
+%display{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+%transition{
+    transition: all 0.7s;
+}

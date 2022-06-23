@@ -5,12 +5,12 @@
    text-align: center;
 
    h1 {
-       padding-top: 30px;
-       font-size: 100px;
+       padding-top: map-get($header , padd-h );
+       font-size: map-get($header , fontsz-h);
    }
 
    img {
-       width: 220px;
-       height: 220px;
+       width: map-get($header , width-h );
+       height: map-get($header , height-h );
    }
 }
