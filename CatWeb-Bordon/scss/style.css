@@ -4,7 +4,7 @@
   display: flex;
 }
 
-.sas-section article:hover {
+.sas-section article:hover, .sas-nav li:hover {
   transition: all 0.7s;
 }
 
@@ -14,7 +14,6 @@
 }
 .sas-nav li:hover {
   transform: scale(1.2);
-  transition: all 0.7s;
   color: #2897e7;
   width: 100px 100px;
   height: 5px 5px;

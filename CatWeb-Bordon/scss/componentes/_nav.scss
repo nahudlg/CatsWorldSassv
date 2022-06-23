@@ -1,6 +1,6 @@
 /*nav */ 
 .sas-nav {
-    grid-area: nav;
+    @include griDarea(nav);
     li{
         a:hover{
             color: map-get($nav, color-hover);
@@ -8,7 +8,7 @@
     }
     li:hover {
         transform: map-get($nav , trasform-n );
-        transition: all 0.7s;
+        @extend %transition;
         color: #2897e7;
         width: map-get($nav , width-n );
         height: 5px 5px;

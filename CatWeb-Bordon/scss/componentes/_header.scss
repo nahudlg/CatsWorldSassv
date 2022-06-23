@@ -1,7 +1,7 @@
 
 /*header */ 
 .sas-header {
-   grid-area: header;
+    @include griDarea(header);
    text-align: center;
 
    h1 {
