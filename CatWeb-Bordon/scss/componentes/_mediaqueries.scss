@@ -1,5 +1,14 @@
 /* 720×1280 (móvil grande) */
 @media screen and (max-width: 720px) {
+    .sas-section{
+        .razas{
+            width: 250px;
+            height: 250px;
+        }
+        .audio{
+            width: 260px;
+        }
+    }
     .sas-header {
         h1 {
             font-size: 50px;
@@ -43,12 +52,13 @@
     }
 
     .sas-container {
-        grid-template-areas: "header header header"
-            "nav nav nav"
-            "nav nav nav"
-            "contenido contenido contenido"
-            "aside aside aside"
-            "footer footer footer";
+        grid-template-areas: "header"
+            "nav"
+            "nav"
+            "contenido"
+            "aside"
+            "footer";
+            grid-template-columns: 1fr;
     }
 
     #footsas {
@@ -67,8 +77,11 @@
 @media screen and (max-width: 375px) {
     .sas-section{
         .razas{
-            width: 70px;
-            height: 70px;
+            width: 150px;
+            height: 150px;
+        }
+        .audio{
+            width: 140px;
         }
     }
     

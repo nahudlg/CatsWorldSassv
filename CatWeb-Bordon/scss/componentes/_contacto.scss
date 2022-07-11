@@ -1,13 +1,40 @@
-.btnmod2{
+.btnmod2 {
     color: #fff;
-    background-color: #0360b1;
-    border-color: #0870cc;
+    background-color: #0033ff;
+    border-color: #1f0264;
 }
-.btnmod1{
+
+.btnmod1 {
     color: #fff;
-    background-color: #b60202;
-    border-color: #660303;
+    background-color: #000d85;
+    border-color: #2f00ff;
 }
-.sas-section{
+
+.sas-section {
     overflow: hidden;
+}
+
+.form {
+    margin: 30px 30px 60px 20px;
+}
+
+.sas-section {
+    h2 {
+        padding-top: 25px;
+    }
+}
+
+.contact-trans {
+
+    ol {
+        img {
+            width: 500px;
+        }
+    }
+}
+
+.contmod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -13,6 +13,10 @@ body {
         "nav nav nav"
         "contenido contenido aside"
         "footer footer footer";
+        
+        h2{
+            padding-top: 20px;
+        }
 }
 
 /*aside */
@@ -33,7 +37,7 @@ body {
 /*foot */
 #footsas {
     @include griDarea(footer);
-    padding: 0px;
+    padding: 10px 10px;
     background-color: #798088;
     display: grid;
     justify-content: center;
